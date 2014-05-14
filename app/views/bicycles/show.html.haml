@@ -1,0 +1,18 @@
+.fieldset
+  Name:
+  = @bicycle.name
+.fieldset
+  Chainring:
+  = @bicycle.chainring
+.fieldset
+  Cog:
+  = @bicycle.cog
+.fieldset
+  Rim:
+  = @bicycle.rim
+.fieldset
+  Tire:
+  = number_with_precision(@bicycle.tire, precision: 2)
+.fieldset
+  Ratio:
+  = number_with_precision(@gearInches, precision: 2)

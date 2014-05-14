@@ -1,0 +1,14 @@
+%table
+  %tr
+    %th Name
+    %th Chain Ring
+    %th Cog
+    %th Rim
+    %th Tire
+  - @bicycles.each do |bike|
+    %tr
+      %td= bike.name
+      %td= bike.chainring
+      %td= bike.cog
+      %td= bike.rim
+      %td= bike.tire

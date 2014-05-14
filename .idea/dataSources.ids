@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails SandyMetz: test" uuid="47ec0be0-56f5-4e11-bc52-d3056fdc5f56">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails SandyMetz: production" uuid="ec90c1c3-e8b5-4764-8abf-fd97a1ccceab">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails SandyMetz: development" uuid="c4492220-4484-418b-96fd-a33b6bea0071">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

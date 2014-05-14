@@ -1,0 +1,18 @@
+= form_for @bicycle do |f|
+  .fieldset
+    = f.label :name, "Bike Name"
+    = f.text_field :name
+  .fieldset
+    = f.label :chainring, "Chain Ring"
+    = f.text_field :chainring
+  .fieldset
+    = f.label :cog, "Cog"
+    = f.text_field :cog
+  .fieldset
+    = f.label :rim, "Rim"
+    = f.text_field :rim
+  .fieldset
+    = f.label :tire, "Tire"
+    = f.text_field :tire
+  .submit
+    = f.submit
