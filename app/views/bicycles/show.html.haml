@@ -15,4 +15,13 @@
   = number_with_precision(@bicycle.tire, precision: 2)
 .fieldset
   Ratio:
-  = number_with_precision(@gearInches, precision: 2)
+  = number_with_precision(@bike.ratio, precision: 2)
+.fieldset
+  Diameter:
+  = number_with_precision(@bike.diameter, precision: 2)
+.fieldset
+  Gear Inches
+  = number_with_precision(@bike.gear_inches, precision: 2)
+.fieldset
+  Circumference
+  = number_with_precision(@bike.circumference, precision: 2)

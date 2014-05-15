@@ -15,17 +15,9 @@ class BicyclesController < ApplicationController
   end
 
   def show
-    chainring = @bicycle.chainring
-    cog = @bicycle.cog
-    rim = @bicycle.rim
-    tire = @bicycle.tire
-    gearInstance = GearFactory.new(
-        chainring:  chainring,
-        cog:        cog,
-        rim:        rim,
-        tire:       tire)
-    @ratio = gearInstance.ratio
-    @gearInches = gearInstance.gear_inches
+    wheel = WheelFactory.new(@bicycle)
+    gear = GearFactory.new(@bicycle, wheel)
+    @bike = BikeAttributeFactory.new(gear.ratio, gear.gear_inches, wheel.diameter, wheel.circumference)
   end
 
   private

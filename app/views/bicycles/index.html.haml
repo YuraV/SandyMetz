@@ -1,5 +1,6 @@
 %table
   %tr
+    %th ID
     %th Name
     %th Chain Ring
     %th Cog
@@ -7,6 +8,7 @@
     %th Tire
   - @bicycles.each do |bike|
     %tr
+      %td= bike.id
       %td= bike.name
       %td= bike.chainring
       %td= bike.cog
