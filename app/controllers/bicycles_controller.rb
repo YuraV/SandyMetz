@@ -16,8 +16,11 @@ class BicyclesController < ApplicationController
 
   def show
     wheel = WheelFactory.new(@bicycle)
-    gear = GearFactory.new(@bicycle, wheel)
-    @bike = BikeAttributeFactory.new(gear.ratio, gear.gear_inches, wheel.diameter, wheel.circumference)
+    gear = GearFactory.new(
+        bicycle:  @bicycle,
+        wheel:    wheel
+    )
+    @bike = BikeAttributeFactory.new(gear.ratio, gear.gear_inches, gear.diameter, wheel.circumference)
   end
 
   private

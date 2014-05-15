@@ -11,7 +11,6 @@ class WheelFactory
   end
 
   def circumference
-
     diameter * Math::PI
   end
 end

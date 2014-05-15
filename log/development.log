@@ -8625,3 +8625,906 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 11:38:07 +0300
 Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+  Rendered bicycles/show.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 68.8ms (Views: 8.9ms | ActiveRecord: 44.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /bicycle.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:23 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:24 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+  Rendered bicycles/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 5.6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:24 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+  Rendered bicycles/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 5.9ms (Views: 4.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.3ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+  Rendered bicycles/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 6.0ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+  Rendered bicycles/show.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 5.5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+  Rendered bicycles/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 5.7ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:25 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+  Rendered bicycles/show.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 5.5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 16:23:26 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 16:40:50 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1329117.1ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:03:04 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 305129.5ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:09:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 10855.8ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:09:47 +0300
+Connecting to database specified by database.yml
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.7ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 567118.3ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:19:14 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 130025.3ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:21:48 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 10971.8ms
+
+NoMethodError (undefined method `/' for nil:NilClass):
+  app/factories/gear_factory.rb:12:in `ratio'
+  app/controllers/bicycles_controller.rb:23:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 33.9ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000103054fc0>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.3ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000101f970e8>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104d32458>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104d5a700>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000102799188>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104b61688>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000101e36488>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:35 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.3ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 22.4ms
+
+NoMethodError (private method `Hash' called for #<Hash:0x00000104d08478>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:36 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (private method `Hash' called for #<Hash:0x00000107053b30>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:37 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (private method `Hash' called for #<Hash:0x00000107116130>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:23:37 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (private method `Hash' called for #<Hash:0x0000010719b5d8>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.6ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:04 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.7ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 22.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104bda628>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104cd2c60>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000103025d60>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000101f6dba8>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:05 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104d12298>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104d3a9f0>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104d854c8>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:06 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.3ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x000001070eddc0>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:17 +0300
+Connecting to database specified by database.yml
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 65.8ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x000001036e1d98>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:18 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.3ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000104917468>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:19 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x00000102856670>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:19 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 1.4ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x000001048da8d8>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:24:19 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 1.3ms
+
+NoMethodError (undefined method `deep_fetch' for #<Hash:0x000001048deaa0>):
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:29:02 +0300
+Connecting to database specified by database.yml
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.3ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 62.6ms
+
+KeyError (key not found: chainring):
+  config/initializers/hash.rb:4:in `deep_fetch'
+  app/factories/gear_factory.rb:6:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:30:09 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.3ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 23.7ms
+
+KeyError (key not found: cog):
+  config/initializers/hash.rb:4:in `deep_fetch'
+  app/factories/gear_factory.rb:7:in `initialize'
+  app/controllers/bicycles_controller.rb:19:in `new'
+  app/controllers/bicycles_controller.rb:19:in `show'
+
+
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/yuriivodolyak/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:30:23 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBicycle Load (0.2ms)[0m  [1mSELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1[0m
+  Rendered bicycles/show.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 81.3ms (Views: 43.7ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /bicycle.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /bicycles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /bicycle.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /bicycles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:24 +0300
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/bicycles/1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Processing by BicyclesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBicycle Load (0.2ms)[0m  SELECT `bicycles`.* FROM `bicycles` WHERE `bicycles`.`id` = 1 LIMIT 1
+  Rendered bicycles/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 5.6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bicycles.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /bicycles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.css?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /bicycle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycle.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /bicycle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bicycles.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /bicycles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-15 17:30:26 +0300
+Served asset /application.js - 304 Not Modified (0ms)
