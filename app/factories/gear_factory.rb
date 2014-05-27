@@ -2,10 +2,9 @@ class GearFactory
   attr_reader :chainring, :cog, :wheel
 
   def initialize(arg)
-    # binding.pry
-    @chainring  = arg.deep_fetch(:bicycle).chainring
-    @cog        = arg.deep_fetch(:bicycle).cog
-    @wheel      = arg.deep_fetch(:wheel)
+    @chainring  = arg.deep_fetch(:bicycle).try(:chainring) || 40
+    @cog        = arg.deep_fetch(:bicycle).try(:cog) || 18
+    @wheel      = arg[:wheel]
   end
 
   def ratio
